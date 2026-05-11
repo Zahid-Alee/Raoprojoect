@@ -1,0 +1,229 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic "Simulation progress" [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]: PK-301
+        - generic [ref=e11]: Deboarding
+        - generic [ref=e12]: 6 / 74 min
+    - generic [ref=e15]:
+      - banner [ref=e16]:
+        - generic [ref=e17]:
+          - heading "Multan Heatwave Turnaround Control" [level=1] [ref=e18]
+          - paragraph [ref=e19]: Dynamic buffer simulation for 50 flights across a 24-hour extreme-heat cycle.
+        - generic [ref=e20]: Buffer nearly full
+      - generic [ref=e22]:
+        - button "Pause" [active] [ref=e828] [cursor=pointer]
+        - generic [ref=e24]:
+          - generic [ref=e25]: Flight
+          - combobox "Flight" [ref=e26]:
+            - option "PK-301 · A320 · STA 00:05" [selected]
+            - option "EK-601 · B777 · STA 00:34"
+            - option "PA-201 · A320 · STA 01:03"
+            - option "FZ-401 · B737 · STA 01:32"
+            - option "QR-501 · A320 · STA 02:01"
+            - option "TK-701 · B737 · STA 02:30"
+            - option "GF-801 · A320 · STA 02:59"
+            - option "SV-901 · B777 · STA 03:28"
+            - option "AI-101 · B737 · STA 03:57"
+            - option "PK-302 · A320 · STA 04:26"
+            - option "EK-602 · B777 · STA 04:55"
+            - option "PA-202 · A320 · STA 05:24"
+            - option "FZ-402 · B737 · STA 05:53"
+            - option "QR-502 · B777 · STA 06:22"
+            - option "TK-702 · A320 · STA 06:51"
+            - option "GF-802 · B737 · STA 07:20"
+            - option "SV-902 · A320 · STA 07:49"
+            - option "AI-102 · B777 · STA 08:18"
+            - option "PK-303 · B737 · STA 08:47"
+            - option "EK-603 · A320 · STA 09:16"
+            - option "PA-203 · B777 · STA 09:45"
+            - option "FZ-403 · B737 · STA 10:14"
+            - option "QR-503 · A320 · STA 10:43"
+            - option "TK-703 · B737 · STA 11:12"
+            - option "GF-803 · B777 · STA 11:41"
+            - option "SV-903 · A320 · STA 12:10"
+            - option "AI-103 · B737 · STA 12:39"
+            - option "PK-304 · B777 · STA 13:08"
+            - option "EK-604 · A320 · STA 13:37"
+            - option "PA-204 · B737 · STA 14:06"
+            - option "FZ-404 · A320 · STA 14:35"
+            - option "QR-504 · B777 · STA 15:04"
+            - option "TK-704 · B737 · STA 15:33"
+            - option "GF-804 · A320 · STA 16:02"
+            - option "SV-904 · B737 · STA 16:31"
+            - option "AI-104 · B777 · STA 17:00"
+            - option "PK-305 · A320 · STA 17:29"
+            - option "EK-605 · B737 · STA 17:58"
+            - option "FZ-405 · A320 · STA 18:27"
+            - option "QR-505 · B777 · STA 18:56"
+            - option "TK-705 · B737 · STA 19:25"
+            - option "GF-805 · A320 · STA 19:54"
+            - option "SV-905 · B777 · STA 20:23"
+            - option "AI-105 · B737 · STA 20:52"
+            - option "PK-306 · A320 · STA 21:21"
+            - option "EK-606 · B777 · STA 21:50"
+            - option "PA-205 · B737 · STA 22:19"
+            - option "FZ-406 · A320 · STA 22:48"
+            - option "QR-506 · B777 · STA 23:17"
+            - option "TK-706 · B737 · STA 23:46"
+        - generic [ref=e27]:
+          - generic [ref=e28]: Speed
+          - slider "Speed 1x" [ref=e29]: "1"
+          - strong [ref=e30]: 1x
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: Static OTP
+          - strong [ref=e34]: 2%
+          - text: 1/50 flights within 15 min
+        - generic [ref=e35]:
+          - generic [ref=e36]: Dynamic OTP
+          - strong [ref=e37]: 74%
+          - text: 37/50 flights within 15 min
+        - generic [ref=e38]:
+          - generic [ref=e39]: Delay Avoided
+          - strong [ref=e40]: 1872 min
+          - text: $140,400 avoided at $75/min
+        - generic [ref=e41]:
+          - generic [ref=e42]: Avg Dynamic Buffer
+          - strong [ref=e43]: 69 min
+          - text: 50 flights need schedule retiming
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e46]: Environmental stress
+          - generic [ref=e47]:
+            - strong [ref=e48]: 30°C
+            - generic [ref=e49]: Heat index 33.4°C
+          - generic [ref=e53]: Staff productivity 100%
+        - generic [ref=e54]:
+          - generic [ref=e55]: Current flight
+          - generic [ref=e56]:
+            - strong [ref=e57]: PK-301
+            - generic [ref=e58]: A320 · 85% load · 1 PRM
+          - generic [ref=e59]:
+            - generic [ref=e60]:
+              - term [ref=e61]: STA / STD
+              - definition [ref=e62]: 00:05 / 01:15
+            - generic [ref=e63]:
+              - term [ref=e64]: Target off-block
+              - definition [ref=e65]: 01:22
+            - generic [ref=e66]:
+              - term [ref=e67]: GSE reliability
+              - definition [ref=e68]: 98%
+            - generic [ref=e69]:
+              - term [ref=e70]: Fatigue
+              - definition [ref=e71]: Low
+        - generic [ref=e72]:
+          - generic [ref=e73]: Delay clock
+          - strong [ref=e74]: +4 min
+          - generic [ref=e75]: Dynamic plan leaves +0 min exposed
+          - generic [ref=e76]: $300 static cost · $0 dynamic cost
+      - generic [ref=e77]:
+        - generic [ref=e79]:
+          - generic [ref=e80]: Static buffer
+          - strong [ref=e81]: 15 min
+          - paragraph [ref=e82]: Fixed airline allowance against a 70 min published turnaround.
+        - generic [ref=e86]:
+          - generic [ref=e87]: Dynamic buffer
+          - strong [ref=e88]: 47 min
+          - paragraph [ref=e89]: Calculated from heat, load, PRM, GSE reliability, fatigue, queue risk, and aircraft type.
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - generic [ref=e95]: Turnaround process
+            - heading "Deboarding" [level=2] [ref=e96]
+          - strong [ref=e97]: 74 min actual
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - generic [ref=e100]: Deboarding
+            - strong [ref=e101]: 17m
+          - generic [ref=e102]:
+            - generic [ref=e103]: Cabin cleaning
+            - strong [ref=e104]: 10m
+          - generic [ref=e105]:
+            - generic [ref=e106]: Baggage
+            - strong [ref=e107]: 19m
+          - generic [ref=e108]:
+            - generic [ref=e109]: Refueling
+            - strong [ref=e110]: 12m
+          - generic [ref=e111]:
+            - generic [ref=e112]: Boarding
+            - strong [ref=e113]: 28m
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - generic [ref=e116]: Stochastic events
+          - generic [ref=e117]:
+            - generic [ref=e118]:
+              - term [ref=e119]: No-show offload
+              - definition [ref=e120]: No event
+            - generic [ref=e121]:
+              - term [ref=e122]: GSE failure
+              - definition [ref=e123]: No failure
+            - generic [ref=e124]:
+              - term [ref=e125]: Resource queue
+              - definition [ref=e126]: 0 min
+            - generic [ref=e127]:
+              - term [ref=e128]: Failure probability
+              - definition [ref=e129]: 1%
+        - generic [ref=e130]:
+          - generic [ref=e131]: Flight risk score
+          - strong [ref=e134]: "95"
+          - paragraph [ref=e135]: Buffer nearly full at 94% dynamic-buffer utilization.
+      - generic [ref=e136]:
+        - generic [ref=e138]:
+          - generic [ref=e139]: 24-hour heatwave cycle
+          - heading "Temperature, buffer, and delay exposure" [level=2] [ref=e140]
+        - generic [ref=e142]:
+          - img [ref=e143]:
+            - generic [ref=e147]:
+              - generic [ref=e437]: 00:05
+              - generic [ref=e439]: 02:59
+              - generic [ref=e441]: 05:53
+              - generic [ref=e443]: 08:47
+              - generic [ref=e445]: 11:41
+              - generic [ref=e447]: 14:35
+              - generic [ref=e449]: 17:29
+              - generic [ref=e451]: 20:23
+              - generic [ref=e453]: 23:17
+            - generic [ref=e167]:
+              - generic [ref=e455]: "0"
+              - generic [ref=e457]: "20"
+              - generic [ref=e459]: "40"
+              - generic [ref=e461]: "60"
+              - generic [ref=e177]: "80"
+            - generic [ref=e179]:
+              - generic [ref=e463]: "0"
+              - generic [ref=e465]: "30"
+              - generic [ref=e467]: "60"
+              - generic [ref=e469]: "90"
+              - generic [ref=e189]: "120"
+          - list [ref=e199]:
+            - listitem [ref=e200]:
+              - img [ref=e201]
+              - text: Temp C
+            - listitem [ref=e203]:
+              - img [ref=e204]
+              - text: Dynamic buffer
+            - listitem [ref=e206]:
+              - img [ref=e207]
+              - text: Static delay
+            - listitem [ref=e209]:
+              - img [ref=e210]
+              - text: Dynamic delay
+      - generic [ref=e212]:
+        - generic [ref=e214]:
+          - generic [ref=e215]: Risk ranking
+          - heading "Highest operational-risk flights" [level=2] [ref=e216]
+        - img [ref=e219]:
+          - generic [ref=e223]:
+            - generic [ref=e627]: GF-803
+            - generic [ref=e629]: EK-604
+            - generic [ref=e631]: TK-704
+            - generic [ref=e633]: PA-204
+            - generic [ref=e635]: FZ-404
+          - generic [ref=e245]:
+            - generic [ref=e247]: "0"
+            - generic [ref=e249]: "40"
+            - generic [ref=e251]: "80"
+            - generic [ref=e253]: "120"
+            - generic [ref=e255]: "160"
+  - generic [ref=e256]: "160"

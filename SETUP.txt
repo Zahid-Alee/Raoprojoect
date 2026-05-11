@@ -1,0 +1,85 @@
+Buffer Turnaround Management System - Setup Complete!
+=======================================================
+
+The application is now running at: http://localhost:3000/
+
+FEATURES:
+---------
+✓ 3D Aircraft Visualization with Three.js
+✓ Real-time Turnaround Simulation
+✓ Dynamic Buffer Calculation based on:
+  - Temperature & Humidity (Heat Index)
+  - Passenger Load Factor
+  - PRM (Passengers with Reduced Mobility) Count
+  - GSE (Ground Support Equipment) Reliability
+  - Staff Fatigue Levels
+✓ Interactive Dashboard with:
+  - Live Metrics (Temperature, Efficiency, Buffer Status, Delay)
+  - Static vs Dynamic Buffer Comparison
+  - Turnaround Timeline Visualization
+  - Aviation KPIs (OTP, Turnaround Times, Buffer Utilization)
+✓ 50 Flights from Multan Airport Dataset (24-hour cycle)
+✓ Heat Wave Simulation (30°C → 50°C → 32°C)
+
+HOW TO USE:
+-----------
+1. Open http://localhost:3000/ in your browser
+2. Click "Play" to start the simulation
+3. Watch the 3D aircraft turnaround process
+4. Select different flights from the dropdown to compare
+5. Observe how temperature affects:
+   - Staff efficiency
+   - Buffer requirements
+   - Delay costs
+   - On-time performance
+
+KEY OBSERVATIONS:
+-----------------
+- Low Temperature (30-35°C): Static buffer (15 min) is sufficient
+- Medium Temperature (36-44°C): Dynamic buffer increases to 18-25 min
+- High Temperature (45-50°C): Dynamic buffer reaches 30-40 min
+- Peak heat hours (12:00-15:00): Maximum delays and costs
+- Staff fatigue increases with temperature
+- GSE reliability decreases in extreme heat
+
+TECHNOLOGY STACK:
+-----------------
+- React 18 (UI Framework)
+- Three.js + React Three Fiber (3D Visualization)
+- Recharts (Data Visualization)
+- Vite (Build Tool)
+
+PROJECT STRUCTURE:
+------------------
+src/
+  ├── components/
+  │   ├── Scene3D.jsx          (3D aircraft and GSE visualization)
+  │   ├── Dashboard.jsx        (Metrics and controls)
+  │   └── Dashboard.css        (Dashboard styling)
+  ├── data/
+  │   └── flightData.js        (50 flights from CSV dataset)
+  ├── utils/
+  │   └── bufferCalculations.js (All buffer logic and formulas)
+  ├── App.jsx                  (Main application)
+  ├── App.css                  (Layout styling)
+  └── main.jsx                 (Entry point)
+
+CALCULATIONS IMPLEMENTED:
+--------------------------
+✓ Heat Index Formula
+✓ Efficiency Multiplier (4% per degree above 40°C)
+✓ Triangular Distribution for Boarding/Deboarding
+✓ Dynamic Buffer Algorithm
+✓ Delay Cost Calculation ($75/minute)
+✓ OTP (On-Time Performance) Tracking
+✓ Buffer Status (Green/Yellow/Red)
+✓ Staff Efficiency Percentage
+
+COMMANDS:
+---------
+npm run dev     - Start development server
+npm run build   - Build for production
+npm run preview - Preview production build
+
+The simulation is ready to demonstrate how dynamic buffer management
+optimizes aircraft turnaround times during heatwave conditions!
